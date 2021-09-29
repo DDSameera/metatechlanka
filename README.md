@@ -30,4 +30,6 @@
 4. `php artisan route:list`
 5. `php artisan key:generate`
 6. `php artisan migrate:fresh --seed`
+7. `php artisan make:model UserModel -m`
+8. `php artisan make:controller UserController -r`
 
