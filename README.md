@@ -32,4 +32,5 @@
 6. `php artisan migrate:fresh --seed`
 7. `php artisan make:model UserModel -m`
 8. `php artisan make:controller UserController -r`
+9. `php artisan make:test LoginTest --unit`
 
