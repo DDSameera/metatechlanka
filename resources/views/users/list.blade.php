@@ -26,9 +26,17 @@
                                 <input type="submit" class="btn btn-sm btn-danger" value="Delete"/>
                             </form>
                          </div>
+
                     </td>
                 </tr>
             @endforeach
+                <tr>
+                    <td>
+                        <div class="col-md-12">
+                            {!! $users->links() !!}
+                        </div>
+                    </td>
+                </tr>
         </tbody>
 
 
