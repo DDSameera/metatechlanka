@@ -15,6 +15,8 @@
 
 5. Run `php artisan test` for Unit Test
 
+6. Run `php artisan dusk` for Browser Test
+
 
 ## 1.0.2. Installation 
 1. Open Terminal
@@ -35,4 +37,5 @@
 7. `php artisan make:model UserModel -m`
 8. `php artisan make:controller UserController -r`
 9. `php artisan make:test LoginTest --unit`
+10. `php artisan dusk`
 
