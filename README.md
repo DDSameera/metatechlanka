@@ -13,6 +13,8 @@
 
 4. Run `php artisan migrate:fresh --seed`
 
+5. Run `php artisan test` for Unit Test
+
 
 ## 1.0.2. Installation 
 1. Open Terminal
