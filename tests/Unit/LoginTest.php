@@ -2,11 +2,16 @@
 
 namespace Tests\Unit;
 
+use Faker\Factory;
+use Illuminate\Http\Response;
+use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 use Illuminate\Support\Facades\Session;
 
 class LoginTest extends TestCase
 {
+    use  WithFaker;
+
     /**
      * A basic unit test example.
      *
@@ -47,5 +52,19 @@ class LoginTest extends TestCase
         $view->assertSee('The email field is required');
     }
 
+    public function test_validate_user_profile()
+    {
 
+        Session::start();
+        $response = $this->call('GET', '/users/4/edit', [
+            'email' => 'digix.sameera@yahoo.com',
+            'name' => 'Sameera',
+            'address' => '',
+            'contact_no' => '',
+            'profile_image'=>'',
+            '_token' => csrf_token()
+        ]);
+        $response->assertStatus(302);
+
+    }
 }
