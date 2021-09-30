@@ -36,4 +36,16 @@ class LoginTest extends TestCase
         $response->assertRedirect('/');
     }
 
+    public function test_validate_user_login()
+    {
+
+        $view = $this->withViewErrors([
+            'email' =>  ['The email field is required'],
+            'password' => ['The password field is required'],
+        ])->view('auth.login');
+
+        $view->assertSee('The email field is required');
+    }
+
+
 }
