@@ -67,4 +67,12 @@ class LoginTest extends TestCase
         $response->assertStatus(302);
 
     }
+
+    public function test_paginated_data(){
+        $this->withoutMiddleware();
+        $response = $this->get(route('users.index'));
+        $response->assertSee('>');
+        $response->assertSee('<');
+
+    }
 }
