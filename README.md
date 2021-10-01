@@ -36,7 +36,7 @@ Run `php artisan storage:link`
 ## 1.0.4. Server URL
 ### ``http://127.0.0.1:8000``
 
-## 1.0.4 Used Artisan Commnad Lists
+## 1.0.5 Used Artisan Commnad Lists
 1. `php artisan optimize`
 2. `php artisan config:cache`
 3. `php artisan config:clear`
