@@ -25,7 +25,7 @@
 
 Run `php artisan storage:link`
 
-![alt](https://link)
+![alt](https://github.com/DDSameera/metatechlanka/blob/master/doc/screen-1.png?raw=true)
 
 ## 1.0.2. Installation 
 1. Open Terminal
