@@ -21,19 +21,19 @@
 
 8. Run `php artisan dusk` for Browser Test
 
-## 1.0.3 Showing Uplaod Images
+## 1.0.2 Showing Uplaoded Images
 
 Run `php artisan storage:link`
 
 ![alt](https://github.com/DDSameera/metatechlanka/blob/master/doc/screen-1.png?raw=true)
 
-## 1.0.2. Installation 
+## 1.0.3. Installation 
 1. Open Terminal
 2. Go to Project Folder Eg: cd xxxx
 3. Install Dependencies . Run Command `composer install`
 4. Run `npm install && npm dev run`  (Node Runtime Required*)
 
-## 1.0.3. Server URL
+## 1.0.4. Server URL
 ### ``http://127.0.0.1:8000``
 
 ## 1.0.4 Used Artisan Commnad Lists
