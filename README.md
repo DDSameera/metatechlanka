@@ -9,14 +9,23 @@
 2. Rename ".env.example" tp ".env" 
 (This is only for demonstration purpose.Not Recommend way in industry level)
 
-3. Run `php artisan key:generate`
+3. Run `php artisan config:clear`
 
-4. Run `php artisan migrate:fresh --seed`
+4. Run `php artisan config:cache`
 
-5. Run `php artisan test` for Unit Test
+5. Run `php artisan key:generate`
 
-6. Run `php artisan dusk` for Browser Test
+6. Run `php artisan migrate:fresh --seed`
 
+7. Run `php artisan test` for Unit Test
+
+8. Run `php artisan dusk` for Browser Test
+
+## 1.0.3 Showing Uplaod Images
+
+Run `php artisan storage:link`
+
+![alt](https://link)
 
 ## 1.0.2. Installation 
 1. Open Terminal
